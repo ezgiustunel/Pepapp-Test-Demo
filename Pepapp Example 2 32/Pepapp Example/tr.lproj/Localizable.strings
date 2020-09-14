@@ -1,0 +1,18 @@
+/* 
+  Localizable.strings
+  Pepapp Example
+
+  Created by Ezgi Ustunel on 1.09.2020.
+  Copyright © 2020 Ezgi Ustunel. All rights reserved.
+*/
+
+
+"placeholderOfTextField" = "E-posta adresini gir";
+"labelExcellent" = "Harika!";
+"labelSuper" = "Süper!";
+"labelVeryGood" = "Çok güzel..";
+"labelEnterEmail" = "E-posta adresini girebilirsin";
+"labelLastPeriodDate" = "Hatırladığın son regl tarihini girer misin?";
+"labelPregnancyWeek" = "Hamileliğinin kaçıncı haftasındasın?";
+"onboarding.email.continue" = "Devam";
+"onboarding.lastPeriod.send" = "Gönder";

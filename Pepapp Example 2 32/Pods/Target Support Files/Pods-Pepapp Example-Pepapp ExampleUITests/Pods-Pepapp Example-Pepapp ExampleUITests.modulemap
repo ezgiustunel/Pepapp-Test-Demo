@@ -1,0 +1,6 @@
+framework module Pods_Pepapp_Example_Pepapp_ExampleUITests {
+  umbrella header "Pods-Pepapp Example-Pepapp ExampleUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

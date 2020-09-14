@@ -1,0 +1,825 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		58C5B6BD325E5EE1BF8862BD /* Pods_Pepapp_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 217647025B292F400143FAAC /* Pods_Pepapp_Example.framework */; };
+		6CAD1945A677DDB0D4A3EA69 /* Pods_Pepapp_ExampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A3AA48B9699778687E302E2 /* Pods_Pepapp_ExampleTests.framework */; };
+		8AE43C1C8519580BFAD53ABA /* Pods_Pepapp_Example_Pepapp_ExampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3F3E0A153FBE1CC4F20C145 /* Pods_Pepapp_Example_Pepapp_ExampleUITests.framework */; };
+		9B341604250616700002A61E /* PEPPregnancyWeekView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B341603250616700002A61E /* PEPPregnancyWeekView.m */; };
+		9B341606250616850002A61E /* PEPPregnancyWeekView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B341605250616850002A61E /* PEPPregnancyWeekView.xib */; };
+		9B34160A25062FF30002A61E /* PEPPregnancyWeekViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B34160825062FF30002A61E /* PEPPregnancyWeekViewCell.m */; };
+		9B34160B25062FF30002A61E /* PEPPregnancyWeekViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B34160925062FF30002A61E /* PEPPregnancyWeekViewCell.xib */; };
+		9B6D4C5224F8EA6B007818EA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B6D4C5124F8EA6B007818EA /* AppDelegate.m */; };
+		9B6D4C5524F8EA6B007818EA /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B6D4C5424F8EA6B007818EA /* SceneDelegate.m */; };
+		9B6D4C5824F8EA6B007818EA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B6D4C5724F8EA6B007818EA /* ViewController.m */; };
+		9B6D4C5B24F8EA6B007818EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B6D4C5924F8EA6B007818EA /* Main.storyboard */; };
+		9B6D4C5D24F8EA6C007818EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B6D4C5C24F8EA6C007818EA /* Assets.xcassets */; };
+		9B6D4C6024F8EA6C007818EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B6D4C5E24F8EA6C007818EA /* LaunchScreen.storyboard */; };
+		9B6D4C6324F8EA6C007818EA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B6D4C6224F8EA6C007818EA /* main.m */; };
+		9B6D4C6D24F8EA6C007818EA /* Pepapp_ExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B6D4C6C24F8EA6C007818EA /* Pepapp_ExampleTests.m */; };
+		9B6D4C7824F8EA6C007818EA /* Pepapp_ExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B6D4C7724F8EA6C007818EA /* Pepapp_ExampleUITests.m */; };
+		9B6D4C8724F8F690007818EA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B6D4C8624F8F690007818EA /* QuartzCore.framework */; };
+		9B77F07924FE35FF00520CAC /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9B77F07724FE35FF00520CAC /* Localizable.strings */; };
+		9B77F07F24FE63DB00520CAC /* LastPeriodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B77F07E24FE63DB00520CAC /* LastPeriodViewController.m */; };
+		9BC9C2BF2500E7210077F448 /* PregnantWeekViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BC9C2BE2500E7210077F448 /* PregnantWeekViewController.m */; };
+		9BDFE111250664D1006A4621 /* PEPPregnancyWeekViewHeaderFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BDFE10F250664D1006A4621 /* PEPPregnancyWeekViewHeaderFooter.m */; };
+		9BDFE112250664D1006A4621 /* PEPPregnancyWeekViewHeaderFooter.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9BDFE110250664D1006A4621 /* PEPPregnancyWeekViewHeaderFooter.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9B6D4C6924F8EA6C007818EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B6D4C4524F8EA6B007818EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B6D4C4C24F8EA6B007818EA;
+			remoteInfo = "Pepapp Example";
+		};
+		9B6D4C7424F8EA6C007818EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B6D4C4524F8EA6B007818EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B6D4C4C24F8EA6B007818EA;
+			remoteInfo = "Pepapp Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		217647025B292F400143FAAC /* Pods_Pepapp_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pepapp_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		37D235512537E36CE5969637 /* Pods-Pepapp ExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pepapp ExampleTests.debug.xcconfig"; path = "Target Support Files/Pods-Pepapp ExampleTests/Pods-Pepapp ExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4A3AA48B9699778687E302E2 /* Pods_Pepapp_ExampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pepapp_ExampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		54776BF4377EB9DC445BE3B5 /* Pods-Pepapp Example-Pepapp ExampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pepapp Example-Pepapp ExampleUITests.debug.xcconfig"; path = "Target Support Files/Pods-Pepapp Example-Pepapp ExampleUITests/Pods-Pepapp Example-Pepapp ExampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		642431A7233A80070983F48B /* Pods-Pepapp Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pepapp Example.debug.xcconfig"; path = "Target Support Files/Pods-Pepapp Example/Pods-Pepapp Example.debug.xcconfig"; sourceTree = "<group>"; };
+		6C61C44935EBB63FD099975A /* Pods-Pepapp Example-Pepapp ExampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pepapp Example-Pepapp ExampleUITests.release.xcconfig"; path = "Target Support Files/Pods-Pepapp Example-Pepapp ExampleUITests/Pods-Pepapp Example-Pepapp ExampleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		73E7336C3AE5D01AF386B6DB /* Pods-Pepapp ExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pepapp ExampleTests.release.xcconfig"; path = "Target Support Files/Pods-Pepapp ExampleTests/Pods-Pepapp ExampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		7753FC78F9D76AAFE1DAEA01 /* Pods-Pepapp Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pepapp Example.release.xcconfig"; path = "Target Support Files/Pods-Pepapp Example/Pods-Pepapp Example.release.xcconfig"; sourceTree = "<group>"; };
+		9B341602250616700002A61E /* PEPPregnancyWeekView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PEPPregnancyWeekView.h; sourceTree = "<group>"; };
+		9B341603250616700002A61E /* PEPPregnancyWeekView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PEPPregnancyWeekView.m; sourceTree = "<group>"; };
+		9B341605250616850002A61E /* PEPPregnancyWeekView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PEPPregnancyWeekView.xib; sourceTree = "<group>"; };
+		9B34160725062FF30002A61E /* PEPPregnancyWeekViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PEPPregnancyWeekViewCell.h; sourceTree = "<group>"; };
+		9B34160825062FF30002A61E /* PEPPregnancyWeekViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PEPPregnancyWeekViewCell.m; sourceTree = "<group>"; };
+		9B34160925062FF30002A61E /* PEPPregnancyWeekViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PEPPregnancyWeekViewCell.xib; sourceTree = "<group>"; };
+		9B6D4C4D24F8EA6B007818EA /* Pepapp Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pepapp Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B6D4C5024F8EA6B007818EA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9B6D4C5124F8EA6B007818EA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9B6D4C5324F8EA6B007818EA /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		9B6D4C5424F8EA6B007818EA /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		9B6D4C5624F8EA6B007818EA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9B6D4C5724F8EA6B007818EA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9B6D4C5A24F8EA6B007818EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9B6D4C5C24F8EA6C007818EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9B6D4C5F24F8EA6C007818EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9B6D4C6124F8EA6C007818EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B6D4C6224F8EA6C007818EA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9B6D4C6824F8EA6C007818EA /* Pepapp ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pepapp ExampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B6D4C6C24F8EA6C007818EA /* Pepapp_ExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Pepapp_ExampleTests.m; sourceTree = "<group>"; };
+		9B6D4C6E24F8EA6C007818EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B6D4C7324F8EA6C007818EA /* Pepapp ExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pepapp ExampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B6D4C7724F8EA6C007818EA /* Pepapp_ExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Pepapp_ExampleUITests.m; sourceTree = "<group>"; };
+		9B6D4C7924F8EA6C007818EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B6D4C8624F8F690007818EA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		9B77F07624FE338F00520CAC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		9B77F07824FE35FF00520CAC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		9B77F07A24FE36A900520CAC /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Main.strings; sourceTree = "<group>"; };
+		9B77F07B24FE36A900520CAC /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		9B77F07C24FE36A900520CAC /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		9B77F07D24FE63DB00520CAC /* LastPeriodViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LastPeriodViewController.h; sourceTree = "<group>"; };
+		9B77F07E24FE63DB00520CAC /* LastPeriodViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LastPeriodViewController.m; sourceTree = "<group>"; };
+		9BC9C2BD2500E7210077F448 /* PregnantWeekViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PregnantWeekViewController.h; sourceTree = "<group>"; };
+		9BC9C2BE2500E7210077F448 /* PregnantWeekViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PregnantWeekViewController.m; sourceTree = "<group>"; };
+		9BDFE10D2506595C006A4621 /* PEPIdentifiable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PEPIdentifiable.h; sourceTree = "<group>"; };
+		9BDFE10E250664D1006A4621 /* PEPPregnancyWeekViewHeaderFooter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PEPPregnancyWeekViewHeaderFooter.h; sourceTree = "<group>"; };
+		9BDFE10F250664D1006A4621 /* PEPPregnancyWeekViewHeaderFooter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PEPPregnancyWeekViewHeaderFooter.m; sourceTree = "<group>"; };
+		9BDFE110250664D1006A4621 /* PEPPregnancyWeekViewHeaderFooter.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PEPPregnancyWeekViewHeaderFooter.xib; sourceTree = "<group>"; };
+		B3F3E0A153FBE1CC4F20C145 /* Pods_Pepapp_Example_Pepapp_ExampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pepapp_Example_Pepapp_ExampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9B6D4C4A24F8EA6B007818EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B6D4C8724F8F690007818EA /* QuartzCore.framework in Frameworks */,
+				58C5B6BD325E5EE1BF8862BD /* Pods_Pepapp_Example.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B6D4C6524F8EA6C007818EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CAD1945A677DDB0D4A3EA69 /* Pods_Pepapp_ExampleTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B6D4C7024F8EA6C007818EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AE43C1C8519580BFAD53ABA /* Pods_Pepapp_Example_Pepapp_ExampleUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		213B7630BF839D8CDA4288AB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				642431A7233A80070983F48B /* Pods-Pepapp Example.debug.xcconfig */,
+				7753FC78F9D76AAFE1DAEA01 /* Pods-Pepapp Example.release.xcconfig */,
+				54776BF4377EB9DC445BE3B5 /* Pods-Pepapp Example-Pepapp ExampleUITests.debug.xcconfig */,
+				6C61C44935EBB63FD099975A /* Pods-Pepapp Example-Pepapp ExampleUITests.release.xcconfig */,
+				37D235512537E36CE5969637 /* Pods-Pepapp ExampleTests.debug.xcconfig */,
+				73E7336C3AE5D01AF386B6DB /* Pods-Pepapp ExampleTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9B341601250616700002A61E /* Pregnancy */ = {
+			isa = PBXGroup;
+			children = (
+				9B341602250616700002A61E /* PEPPregnancyWeekView.h */,
+				9B341603250616700002A61E /* PEPPregnancyWeekView.m */,
+				9B341605250616850002A61E /* PEPPregnancyWeekView.xib */,
+				9B34160725062FF30002A61E /* PEPPregnancyWeekViewCell.h */,
+				9B34160825062FF30002A61E /* PEPPregnancyWeekViewCell.m */,
+				9B34160925062FF30002A61E /* PEPPregnancyWeekViewCell.xib */,
+				9BDFE10E250664D1006A4621 /* PEPPregnancyWeekViewHeaderFooter.h */,
+				9BDFE10F250664D1006A4621 /* PEPPregnancyWeekViewHeaderFooter.m */,
+				9BDFE110250664D1006A4621 /* PEPPregnancyWeekViewHeaderFooter.xib */,
+			);
+			path = Pregnancy;
+			sourceTree = "<group>";
+		};
+		9B6D4C4424F8EA6B007818EA = {
+			isa = PBXGroup;
+			children = (
+				9B6D4C4F24F8EA6B007818EA /* Pepapp Example */,
+				9B6D4C6B24F8EA6C007818EA /* Pepapp ExampleTests */,
+				9B6D4C7624F8EA6C007818EA /* Pepapp ExampleUITests */,
+				9B6D4C4E24F8EA6B007818EA /* Products */,
+				9B6D4C8524F8F690007818EA /* Frameworks */,
+				213B7630BF839D8CDA4288AB /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		9B6D4C4E24F8EA6B007818EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B6D4C4D24F8EA6B007818EA /* Pepapp Example.app */,
+				9B6D4C6824F8EA6C007818EA /* Pepapp ExampleTests.xctest */,
+				9B6D4C7324F8EA6C007818EA /* Pepapp ExampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B6D4C4F24F8EA6B007818EA /* Pepapp Example */ = {
+			isa = PBXGroup;
+			children = (
+				9BDFE10C2506595C006A4621 /* Shared */,
+				9B341601250616700002A61E /* Pregnancy */,
+				9B6D4C5024F8EA6B007818EA /* AppDelegate.h */,
+				9B6D4C5124F8EA6B007818EA /* AppDelegate.m */,
+				9B6D4C5324F8EA6B007818EA /* SceneDelegate.h */,
+				9B6D4C5424F8EA6B007818EA /* SceneDelegate.m */,
+				9B6D4C5624F8EA6B007818EA /* ViewController.h */,
+				9B6D4C5724F8EA6B007818EA /* ViewController.m */,
+				9B77F07D24FE63DB00520CAC /* LastPeriodViewController.h */,
+				9B77F07E24FE63DB00520CAC /* LastPeriodViewController.m */,
+				9BC9C2BD2500E7210077F448 /* PregnantWeekViewController.h */,
+				9BC9C2BE2500E7210077F448 /* PregnantWeekViewController.m */,
+				9B77F07724FE35FF00520CAC /* Localizable.strings */,
+				9B6D4C5924F8EA6B007818EA /* Main.storyboard */,
+				9B6D4C5C24F8EA6C007818EA /* Assets.xcassets */,
+				9B6D4C5E24F8EA6C007818EA /* LaunchScreen.storyboard */,
+				9B6D4C6124F8EA6C007818EA /* Info.plist */,
+				9B6D4C6224F8EA6C007818EA /* main.m */,
+			);
+			path = "Pepapp Example";
+			sourceTree = "<group>";
+		};
+		9B6D4C6B24F8EA6C007818EA /* Pepapp ExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				9B6D4C6C24F8EA6C007818EA /* Pepapp_ExampleTests.m */,
+				9B6D4C6E24F8EA6C007818EA /* Info.plist */,
+			);
+			path = "Pepapp ExampleTests";
+			sourceTree = "<group>";
+		};
+		9B6D4C7624F8EA6C007818EA /* Pepapp ExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9B6D4C7724F8EA6C007818EA /* Pepapp_ExampleUITests.m */,
+				9B6D4C7924F8EA6C007818EA /* Info.plist */,
+			);
+			path = "Pepapp ExampleUITests";
+			sourceTree = "<group>";
+		};
+		9B6D4C8524F8F690007818EA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B6D4C8624F8F690007818EA /* QuartzCore.framework */,
+				217647025B292F400143FAAC /* Pods_Pepapp_Example.framework */,
+				B3F3E0A153FBE1CC4F20C145 /* Pods_Pepapp_Example_Pepapp_ExampleUITests.framework */,
+				4A3AA48B9699778687E302E2 /* Pods_Pepapp_ExampleTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9BDFE10C2506595C006A4621 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				9BDFE10D2506595C006A4621 /* PEPIdentifiable.h */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9B6D4C4C24F8EA6B007818EA /* Pepapp Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B6D4C7C24F8EA6C007818EA /* Build configuration list for PBXNativeTarget "Pepapp Example" */;
+			buildPhases = (
+				28E0D085097FC1721BC72354 /* [CP] Check Pods Manifest.lock */,
+				9B6D4C4924F8EA6B007818EA /* Sources */,
+				9B6D4C4A24F8EA6B007818EA /* Frameworks */,
+				9B6D4C4B24F8EA6B007818EA /* Resources */,
+				2020CB69102DF835CA12ECC2 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pepapp Example";
+			productName = "Pepapp Example";
+			productReference = 9B6D4C4D24F8EA6B007818EA /* Pepapp Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9B6D4C6724F8EA6C007818EA /* Pepapp ExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B6D4C7F24F8EA6C007818EA /* Build configuration list for PBXNativeTarget "Pepapp ExampleTests" */;
+			buildPhases = (
+				06680AB6F38FAF6B11104768 /* [CP] Check Pods Manifest.lock */,
+				9B6D4C6424F8EA6C007818EA /* Sources */,
+				9B6D4C6524F8EA6C007818EA /* Frameworks */,
+				9B6D4C6624F8EA6C007818EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B6D4C6A24F8EA6C007818EA /* PBXTargetDependency */,
+			);
+			name = "Pepapp ExampleTests";
+			productName = "Pepapp ExampleTests";
+			productReference = 9B6D4C6824F8EA6C007818EA /* Pepapp ExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9B6D4C7224F8EA6C007818EA /* Pepapp ExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B6D4C8224F8EA6C007818EA /* Build configuration list for PBXNativeTarget "Pepapp ExampleUITests" */;
+			buildPhases = (
+				45B8A28F24489F9834D0F1CF /* [CP] Check Pods Manifest.lock */,
+				9B6D4C6F24F8EA6C007818EA /* Sources */,
+				9B6D4C7024F8EA6C007818EA /* Frameworks */,
+				9B6D4C7124F8EA6C007818EA /* Resources */,
+				3CB8886D9E2621A8012E6F46 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B6D4C7524F8EA6C007818EA /* PBXTargetDependency */,
+			);
+			name = "Pepapp ExampleUITests";
+			productName = "Pepapp ExampleUITests";
+			productReference = 9B6D4C7324F8EA6C007818EA /* Pepapp ExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9B6D4C4524F8EA6B007818EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Ezgi Ustunel";
+				TargetAttributes = {
+					9B6D4C4C24F8EA6B007818EA = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					9B6D4C6724F8EA6C007818EA = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 9B6D4C4C24F8EA6B007818EA;
+					};
+					9B6D4C7224F8EA6C007818EA = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 9B6D4C4C24F8EA6B007818EA;
+					};
+				};
+			};
+			buildConfigurationList = 9B6D4C4824F8EA6B007818EA /* Build configuration list for PBXProject "Pepapp Example" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				tr,
+			);
+			mainGroup = 9B6D4C4424F8EA6B007818EA;
+			productRefGroup = 9B6D4C4E24F8EA6B007818EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B6D4C4C24F8EA6B007818EA /* Pepapp Example */,
+				9B6D4C6724F8EA6C007818EA /* Pepapp ExampleTests */,
+				9B6D4C7224F8EA6C007818EA /* Pepapp ExampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9B6D4C4B24F8EA6B007818EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B6D4C6024F8EA6C007818EA /* LaunchScreen.storyboard in Resources */,
+				9B77F07924FE35FF00520CAC /* Localizable.strings in Resources */,
+				9B6D4C5D24F8EA6C007818EA /* Assets.xcassets in Resources */,
+				9BDFE112250664D1006A4621 /* PEPPregnancyWeekViewHeaderFooter.xib in Resources */,
+				9B341606250616850002A61E /* PEPPregnancyWeekView.xib in Resources */,
+				9B34160B25062FF30002A61E /* PEPPregnancyWeekViewCell.xib in Resources */,
+				9B6D4C5B24F8EA6B007818EA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B6D4C6624F8EA6C007818EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B6D4C7124F8EA6C007818EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		06680AB6F38FAF6B11104768 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Pepapp ExampleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2020CB69102DF835CA12ECC2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Pepapp Example/Pods-Pepapp Example-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Pepapp Example/Pods-Pepapp Example-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Pepapp Example/Pods-Pepapp Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		28E0D085097FC1721BC72354 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Pepapp Example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3CB8886D9E2621A8012E6F46 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Pepapp Example-Pepapp ExampleUITests/Pods-Pepapp Example-Pepapp ExampleUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Pepapp Example-Pepapp ExampleUITests/Pods-Pepapp Example-Pepapp ExampleUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Pepapp Example-Pepapp ExampleUITests/Pods-Pepapp Example-Pepapp ExampleUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		45B8A28F24489F9834D0F1CF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Pepapp Example-Pepapp ExampleUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9B6D4C4924F8EA6B007818EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B6D4C5824F8EA6B007818EA /* ViewController.m in Sources */,
+				9BC9C2BF2500E7210077F448 /* PregnantWeekViewController.m in Sources */,
+				9B6D4C5224F8EA6B007818EA /* AppDelegate.m in Sources */,
+				9BDFE111250664D1006A4621 /* PEPPregnancyWeekViewHeaderFooter.m in Sources */,
+				9B77F07F24FE63DB00520CAC /* LastPeriodViewController.m in Sources */,
+				9B6D4C6324F8EA6C007818EA /* main.m in Sources */,
+				9B6D4C5524F8EA6B007818EA /* SceneDelegate.m in Sources */,
+				9B34160A25062FF30002A61E /* PEPPregnancyWeekViewCell.m in Sources */,
+				9B341604250616700002A61E /* PEPPregnancyWeekView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B6D4C6424F8EA6C007818EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B6D4C6D24F8EA6C007818EA /* Pepapp_ExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B6D4C6F24F8EA6C007818EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B6D4C7824F8EA6C007818EA /* Pepapp_ExampleUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9B6D4C6A24F8EA6C007818EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B6D4C4C24F8EA6B007818EA /* Pepapp Example */;
+			targetProxy = 9B6D4C6924F8EA6C007818EA /* PBXContainerItemProxy */;
+		};
+		9B6D4C7524F8EA6C007818EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B6D4C4C24F8EA6B007818EA /* Pepapp Example */;
+			targetProxy = 9B6D4C7424F8EA6C007818EA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9B6D4C5924F8EA6B007818EA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B6D4C5A24F8EA6B007818EA /* Base */,
+				9B77F07624FE338F00520CAC /* en */,
+				9B77F07A24FE36A900520CAC /* tr */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9B6D4C5E24F8EA6C007818EA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B6D4C5F24F8EA6C007818EA /* Base */,
+				9B77F07B24FE36A900520CAC /* tr */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		9B77F07724FE35FF00520CAC /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B77F07824FE35FF00520CAC /* en */,
+				9B77F07C24FE36A900520CAC /* tr */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9B6D4C7A24F8EA6C007818EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9B6D4C7B24F8EA6C007818EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9B6D4C7D24F8EA6C007818EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 642431A7233A80070983F48B /* Pods-Pepapp Example.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Pepapp Example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ezgiustunel.Pepapp-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9B6D4C7E24F8EA6C007818EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7753FC78F9D76AAFE1DAEA01 /* Pods-Pepapp Example.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Pepapp Example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ezgiustunel.Pepapp-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9B6D4C8024F8EA6C007818EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37D235512537E36CE5969637 /* Pods-Pepapp ExampleTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Pepapp ExampleTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ezgiustunel.Pepapp-ExampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pepapp Example.app/Pepapp Example";
+			};
+			name = Debug;
+		};
+		9B6D4C8124F8EA6C007818EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73E7336C3AE5D01AF386B6DB /* Pods-Pepapp ExampleTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Pepapp ExampleTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ezgiustunel.Pepapp-ExampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pepapp Example.app/Pepapp Example";
+			};
+			name = Release;
+		};
+		9B6D4C8324F8EA6C007818EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54776BF4377EB9DC445BE3B5 /* Pods-Pepapp Example-Pepapp ExampleUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Pepapp ExampleUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ezgiustunel.Pepapp-ExampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Pepapp Example";
+			};
+			name = Debug;
+		};
+		9B6D4C8424F8EA6C007818EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C61C44935EBB63FD099975A /* Pods-Pepapp Example-Pepapp ExampleUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Pepapp ExampleUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ezgiustunel.Pepapp-ExampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Pepapp Example";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9B6D4C4824F8EA6B007818EA /* Build configuration list for PBXProject "Pepapp Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B6D4C7A24F8EA6C007818EA /* Debug */,
+				9B6D4C7B24F8EA6C007818EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B6D4C7C24F8EA6C007818EA /* Build configuration list for PBXNativeTarget "Pepapp Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B6D4C7D24F8EA6C007818EA /* Debug */,
+				9B6D4C7E24F8EA6C007818EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B6D4C7F24F8EA6C007818EA /* Build configuration list for PBXNativeTarget "Pepapp ExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B6D4C8024F8EA6C007818EA /* Debug */,
+				9B6D4C8124F8EA6C007818EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B6D4C8224F8EA6C007818EA /* Build configuration list for PBXNativeTarget "Pepapp ExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B6D4C8324F8EA6C007818EA /* Debug */,
+				9B6D4C8424F8EA6C007818EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9B6D4C4524F8EA6B007818EA /* Project object */;
+}

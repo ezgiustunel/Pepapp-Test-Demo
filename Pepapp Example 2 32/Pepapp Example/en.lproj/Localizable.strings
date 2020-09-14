@@ -1,0 +1,19 @@
+/* 
+  Localizable.strings
+  Pepapp Example
+
+  Created by Ezgi Ustunel on 1.09.2020.
+  Copyright © 2020 Ezgi Ustunel. All rights reserved.
+*/
+
+"placeholderOfTextField" = "Enter your e-mail address";
+"labelExcellent" = "Excellent!";
+"labelSuper" = "Super!";
+"labelVeryGood" = "Very Good!";
+"labelEnterEmail" = "You can enter your e-mail address";
+"labelLastPeriodDate" = "Can you enter the last menstrual date you remember?";
+"labelPregnancyWeek" = "What week of your pregnancy are you?";
+"onboarding.email.continue" = "Continue";
+"onboarding.lastPeriod.send" = "Send";
+
+
