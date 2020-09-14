@@ -38,21 +38,21 @@
 #pragma mark - DatePicker Methods
 
 -(void)lastPeriodDate {
-    lastPeriodDate=[[UIDatePicker alloc]init];
-    lastPeriodDate.datePickerMode=UIDatePickerModeDate;
+    lastPeriodDate = [[UIDatePicker alloc]init];
+    lastPeriodDate.datePickerMode = UIDatePickerModeDate;
     [TFDatePicker setInputView:lastPeriodDate];
-    UIToolbar *toolBar=[[UIToolbar alloc]initWithFrame:CGRectMake(0, 0, 320, 44)];
+    UIToolbar *toolBar = [[UIToolbar alloc]initWithFrame:CGRectMake(0, 0, 320, 44)];
     [toolBar setTintColor:[UIColor grayColor]];
-    UIBarButtonItem *doneBtn=[[UIBarButtonItem alloc]initWithTitle:@"Done" style:UIBarButtonItemStylePlain target:self action:@selector(ShowSelectedDate)];
-    UIBarButtonItem *space=[[UIBarButtonItem alloc]initWithBarButtonSystemItem:UIBarButtonSystemItemFlexibleSpace target:nil action:nil];
+    UIBarButtonItem *doneBtn = [[UIBarButtonItem alloc]initWithTitle:@"Done" style:UIBarButtonItemStylePlain target:self action:@selector(ShowSelectedDate)];
+    UIBarButtonItem *space = [[UIBarButtonItem alloc]initWithBarButtonSystemItem:UIBarButtonSystemItemFlexibleSpace target:nil action:nil];
     [toolBar setItems:[NSArray arrayWithObjects:space,doneBtn, nil]];
     [TFDatePicker setInputAccessoryView:toolBar];
 }
 
 -(void)ShowSelectedDate
-{   NSDateFormatter *formatter=[[NSDateFormatter alloc]init];
+{   NSDateFormatter *formatter = [[NSDateFormatter alloc]init];
     [formatter setDateFormat:@"dd MMM YYYY"];
-    TFDatePicker.text=[NSString stringWithFormat:@"%@",[formatter stringFromDate:lastPeriodDate.date]];
+    TFDatePicker.text = [NSString stringWithFormat:@"%@",[formatter stringFromDate:lastPeriodDate.date]];
     [TFDatePicker resignFirstResponder];
 }
 
@@ -61,7 +61,7 @@
 - (IBAction)backButton:(id)sender {
     ViewController *back = [self.storyboard instantiateViewControllerWithIdentifier:@"first"];
     
-    CATransition* transition = [CATransition animation];
+    CATransition *transition = [CATransition animation];
     transition.duration = 0.4;
     transition.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseInEaseOut];
     transition.type = kCATransitionPush; //kCATransitionMoveIn; //, kCATransitionPush, kCATransitionReveal, kCATransitionFade
@@ -69,7 +69,5 @@
     [self.navigationController.view.layer addAnimation:transition forKey:nil];
     [[self navigationController] pushViewController:back animated:YES];
 }
-
-
 
 @end

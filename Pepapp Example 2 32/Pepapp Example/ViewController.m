@@ -51,12 +51,6 @@
 
     TFEmail.layer.borderWidth = 1.0f;
 
-    //TFEmail.layer.opacity = 0.4;
-
-    //TFEmail.layer.shadowOpacity = 0.15;
-
-    //TFEmail.layer.shadowColor = [[UIColor redColor]CGColor];
-
     [[NSNotificationCenter defaultCenter] addObserver:self  selector:@selector(keyboardWillShow:) name:UIKeyboardWillShowNotification object:nil];
 
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(keyboardWillBeHidden:) name:UIKeyboardWillHideNotification object:nil];
@@ -75,14 +69,10 @@
     NSTimeInterval duration = [aNotification.userInfo[UIKeyboardAnimationDurationUserInfoKey] doubleValue];
     NSDictionary* info = [aNotification userInfo];
     CGSize kbSize = [[info objectForKey:UIKeyboardFrameEndUserInfoKey] CGRectValue].size;
-    //self.popUpView.hidden = true;
-    //self.CNSPopUpHeight.constant = 0;
     [scrollView setContentOffset:CGPointMake(0,TFEmail.center.y - (kbSize.height-(kbSize.height/2.3))) animated:YES];
     
     CNSContinueBottom.constant = kbSize.height / 4;
     CNSBackBottom.constant = kbSize.height / 4;
-    //CNSBackTop.constant = 90;
-    //CNSContinueTop.constant = 90;
     
     [UIView animateWithDuration:duration animations:^{
         [self.view layoutIfNeeded];
@@ -92,8 +82,6 @@
 - (void)keyboardWillBeHidden:(NSNotification*)aNotification {
     
     NSTimeInterval duration = [aNotification.userInfo[UIKeyboardAnimationDurationUserInfoKey] doubleValue];
-    //self.popUpView.hidden = false;
-    //self.CNSPopUpHeight.constant = _viewHeight;
     [scrollView  setContentOffset:CGPointMake(0,0) animated:YES];
     CNSContinueBottom.constant = _continueBottomHeight;
     CNSBackBottom.constant = _backBottomHeight;
