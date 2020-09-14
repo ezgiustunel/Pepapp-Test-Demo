@@ -38,7 +38,7 @@ CATransition *transition;
 
 #pragma mark - Notifications
 
-- (void)handleNotification:(NSNotification *)n  {
+- (void)handleNotification:(NSNotification *)n {
     if ([n.name isEqualToString:notificationBroadcast2]) {
         if (n.userInfo && [n.userInfo objectForKey:@"pregnancyWeek"]){
             NSLog (@"Current index is %@", [n.userInfo objectForKey:@"pregnancyWeek"]);
@@ -65,13 +65,12 @@ CATransition *transition;
     NSLog(@"calisiyor: %li", (long)index);
 }
 
-
 #pragma mark - IBActions
 
 - (IBAction)backToLastPeriod:(id)sender {
     LastPeriodViewController *back = [self.storyboard instantiateViewControllerWithIdentifier:@"lastPeriod"];
 
-    CATransition* transition = [CATransition animation];
+    CATransition *transition = [CATransition animation];
     transition.duration = 0.4;
     transition.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseInEaseOut];
     transition.type = kCATransitionPush; //kCATransitionMoveIn; //, kCATransitionPush, kCATransitionReveal, kCATransitionFade
@@ -79,8 +78,6 @@ CATransition *transition;
     [self.navigationController.view.layer addAnimation:transition forKey:nil];
     [[self navigationController] pushViewController:back animated:YES];
 }
-
-
 
 @end
 

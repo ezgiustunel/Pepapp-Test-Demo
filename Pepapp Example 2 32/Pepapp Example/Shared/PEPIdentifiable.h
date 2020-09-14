@@ -10,7 +10,7 @@
 #define Header_h
 @protocol PEPIdentifiable
     
-+(NSString *) identifier;
++(NSString *)identifier;
 
 @end
 
