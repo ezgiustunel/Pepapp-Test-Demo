@@ -24,8 +24,7 @@ NSString *notificationBroadcast = @"pregnancyWeekReceived";
     __weak IBOutlet UICollectionView *collectionView;
 }
 
-- (instancetype)initWithCoder:(NSCoder *)coder
-{
+- (instancetype)initWithCoder:(NSCoder *)coder {
     self = [super initWithCoder:coder];
     if (self) {
         [self commonInit];
@@ -33,8 +32,7 @@ NSString *notificationBroadcast = @"pregnancyWeekReceived";
     return self;
 }
 
-- (instancetype)initWithFrame:(CGRect)frame
-{
+- (instancetype)initWithFrame:(CGRect)frame {
     self = [super initWithFrame:frame];
     if (self) {
         [self commonInit];
@@ -44,7 +42,7 @@ NSString *notificationBroadcast = @"pregnancyWeekReceived";
 
 -(void) commonInit {
     [self attachAndLoadXib:NSStringFromClass([self class])];
-    UINib* cellNib = [UINib nibWithNibName:[PEPPregnancyWeekViewCell identifier] bundle:nil];
+    UINib *cellNib = [UINib nibWithNibName:[PEPPregnancyWeekViewCell identifier] bundle:nil];
     [collectionView registerNib:cellNib forCellWithReuseIdentifier:[PEPPregnancyWeekViewCell identifier]];
     
     [collectionView registerHeaderNib:[PEPPregnancyWeekViewHeaderFooter identifier]];
@@ -94,7 +92,7 @@ NSString *notificationBroadcast = @"pregnancyWeekReceived";
 
 
 - (void)collectionView:(UICollectionView *)collectionView willDisplayCell:(UICollectionViewCell *)cell forItemAtIndexPath:(NSIndexPath *)indexPath{
-    ((PEPPregnancyWeekViewCell *) cell).week = self.letters[indexPath.row];
+    ((PEPPregnancyWeekViewCell *)cell).week = self.letters[indexPath.row];
 }
 
 - (UICollectionReusableView *)collectionView:(UICollectionView *)collectionView viewForSupplementaryElementOfKind:(NSString *)kind atIndexPath:(NSIndexPath *)indexPath {
@@ -108,7 +106,7 @@ NSString *notificationBroadcast = @"pregnancyWeekReceived";
 }
 
 - (void)scrollViewDidEndDragging:(UIScrollView *)scrollView willDecelerate:(BOOL)decelerate {
-    if(!decelerate){
+    if(!decelerate) {
         [self snapToNearestNeighbour:scrollView];
     }
 }
@@ -149,9 +147,5 @@ NSString *notificationBroadcast = @"pregnancyWeekReceived";
     CGPoint topOfFooter = CGPointMake(0, attribs.frame.origin.y - collectionView.contentInset.top);
     [collectionView setContentOffset:topOfFooter animated:YES];
 }
-
-
-
-
 
 @end

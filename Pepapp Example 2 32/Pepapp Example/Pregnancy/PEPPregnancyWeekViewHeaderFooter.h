@@ -9,8 +9,6 @@
 #import <UIKit/UIKit.h>
 #import "PEPIdentifiable.h"
 
-
-
 @interface PEPPregnancyWeekViewHeaderFooter : UICollectionReusableView <PEPIdentifiable>
 
 @end

@@ -17,23 +17,10 @@
     CGFloat _continueBottomHeight;
     CGFloat _backBottomHeight;
     __weak IBOutlet KKUITextField *TFEmail;
-
-    
-
     __weak IBOutlet NSLayoutConstraint *CNSContinueBottom;
-    
-    
     __weak IBOutlet NSLayoutConstraint *CNSBackBottom;
-    
-    
     __weak IBOutlet UIScrollView *scrollView;
-    
-    
     __weak IBOutlet KKUIButton *BTNContinue;
-    
-    
-  
-    
 }
 
 #pragma mark - View Lifecycle
@@ -64,8 +51,6 @@
 #pragma mark - Notification
 
 - (void)keyboardWillShow:(NSNotification*)aNotification {
-    
-    
     NSTimeInterval duration = [aNotification.userInfo[UIKeyboardAnimationDurationUserInfoKey] doubleValue];
     NSDictionary* info = [aNotification userInfo];
     CGSize kbSize = [[info objectForKey:UIKeyboardFrameEndUserInfoKey] CGRectValue].size;
@@ -88,7 +73,6 @@
     [UIView animateWithDuration:duration animations:^{
         [self.view layoutIfNeeded];
     }];
-
     }
 
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
@@ -99,14 +83,12 @@
     [[NSNotificationCenter defaultCenter] removeObserver:self];
 }
 
-
-
-
 #pragma mark - <UITextFieldDelegate>
 
-- (BOOL)textFieldShouldReturn:(UITextField *)textField{
+- (BOOL)textFieldShouldReturn:(UITextField *)textField {
     [textField resignFirstResponder];
     return YES;
 }
+
 @end
 

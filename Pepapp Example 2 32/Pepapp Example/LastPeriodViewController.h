@@ -9,10 +9,6 @@
 #import <UIKit/UIKit.h>
 
 
-@interface LastPeriodViewController : UIViewController{
-    
-    
-}
-
+@interface LastPeriodViewController : UIViewController
 @end
 

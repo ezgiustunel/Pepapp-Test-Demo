@@ -8,12 +8,8 @@
 
 #import "PEPPregnancyWeekViewCell.h"
 
-
-
 @implementation PEPPregnancyWeekViewCell{
-    
-    __weak IBOutlet UILabel *LBLWeek;
-    
+    __weak IBOutlet UILabel *LBLWeek;    
 }
 
 - (void)awakeFromNib {
